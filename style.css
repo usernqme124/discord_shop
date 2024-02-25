@@ -6,10 +6,19 @@ body {
     color: white;
 }
 
+a {
+    color: inherit;
+}
+
 ul {
     list-style-type: none;
     margin-left: auto;
     margin-right: auto;
+    display: inline;
+}
+
+li {
+    display: inline;
 }
 
 div {
@@ -20,10 +29,10 @@ div {
 
 .server {
     position: relative;
-    width: 2.8%;
-    left: -2%;
-    top: 1%;
-    right: 0%;
+    width: 45px;
+    left: -23px;
+    top: 5px;
+    right: 0px;
 }
 
 .bannerparent {
@@ -78,6 +87,7 @@ div {
     right: 83%;
     border-radius: 16px;
     background-color: #1E1F22;
+    transition: 300ms  ease-in-out;
 }
 
 .avatardecorationshowcase {
@@ -102,9 +112,58 @@ div {
     left: -32%;
     right: 0%;
 }
+.avatardecorationtext {
+    position: relative;
+    top: 155px;
+    left: -34px;
+    right: 0px;
+}
+
+.avatardecorationprice {
+    position: relative;
+    top: 180px;
+    left: -100px;
+    right: 0px;
+}
+
+.avatardecorationpricenitro {
+    position: relative;
+    top: 146px;
+    left: -24px;
+    right: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #b3b4b6;
+}
 
 .avatardecorationavatar {
-    background-image: url(images/avatar.png);
+    position: relative;
     margin-left: auto;
     margin-right: auto;
+    top: 30px;
+}
+.avatardecorationeffect {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 18px;
+    width: 152px;
+    left: 0px;
+    right: 0px;
+}
+
+.avatardecoration:hover {
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.219);
+    transition: 300ms ease-in-out;
+    top: 38.7%;
+}
+
+.nocolor {
+    color: inherit;
+}
+
+.disclaimer {
+    position: relative;
+    top: -8px;
+    text-decoration: none;
 }
