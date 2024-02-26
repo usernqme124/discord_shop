@@ -167,3 +167,12 @@ div {
     top: -8px;
     text-decoration: none;
 }
+
+.disclaimertext {
+    font-size: 40px;
+}
+
+.disclaimerredirect {
+    position: relative;
+    text-decoration: none;
+}
