@@ -81,20 +81,22 @@ div {
 .avatardecoration {
     position: absolute;
     height: 353px;
-    width: 287px;
+    width: 237px;
     top: 39%;
     left: 0%;
     right: 83%;
     border-radius: 16px;
     background-color: #1E1F22;
     transition: 300ms  ease-in-out;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .avatardecorationshowcase {
     background-color: #111214;
     position: absolute;
     height: 201px;
-    width: 287px;
+    width: 237px;
     top: 0%;
     left: 0%;
     right: 83%;
@@ -115,21 +117,21 @@ div {
 .avatardecorationtext {
     position: relative;
     top: 155px;
-    left: -34px;
-    right: 0px;
+    text-align: left;
+    left: 17px;
 }
 
 .avatardecorationprice {
     position: relative;
     top: 180px;
-    left: -100px;
+    left: -80px;
     right: 0px;
 }
 
 .avatardecorationpricenitro {
     position: relative;
     top: 146px;
-    left: -24px;
+    left: -4px;
     right: 0px;
     font-size: 14px;
     font-weight: 600;
@@ -175,4 +177,59 @@ div {
 .disclaimerredirect {
     position: relative;
     text-decoration: none;
+}
+
+#fire {
+    position: absolute;
+    left: 35px;
+}
+
+#water {
+    position: absolute;
+    left: 305px;
+    transition: 300ms ease-in-out;
+}
+
+#air {
+    position: absolute;
+    left: 575px;
+    transition: 300ms ease-in-out;
+}
+
+#earth {
+    position: absolute;
+    left: 845px;
+    transition: 300ms ease-in-out;
+}
+
+#lightning {
+    position: absolute;
+    left: 1115px;
+    transition: 300ms ease-in-out;
+}
+
+#balance {
+    position: absolute;
+    left: 1385px;
+    transition: 300ms ease-in-out;
+}
+
+#text_dupe_water {
+    left: -63px;
+}
+
+#text_dupe_air {
+    left: -79px;
+}
+
+#text_dupe_earth {
+    left: -64px;
+}
+
+#text_dupe_lightning {
+    left: -40px;
+}
+
+#text_dupe_balance {
+    left: -51px;
 }
